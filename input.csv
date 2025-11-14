@@ -1,0 +1,1440 @@
+name,method,method_link
+U-ON,New lead,https://api.u-on.ru/{{credential.api_key}}/lead/create.json
+U-ON,New request,https://api.u-on.ru/{{credential.api_key}}/request/create.json
+U-ON,Add reminder in request,https://api.u-on.ru/{{credential.api_key}}/reminder/create.json
+TargetSMS,Send SMS,https://sms.targetsms.ru/sendsmsjson.php
+Klientiks CRM,New visit/order,"https://klientiks.ru/clientix/Restapi/list/a/{{credential.account_id}}/u/{{credential.user_id}}/t/{{credential.access_token}}/m/AppointmentClientLinks/ik/orders/rvwk/status,statuses/?date={{utils.currentTimestamp}}"
+Klientiks CRM,New client,https://klientiks.ru/clientix/Restapi/add/a/{{credential.account_id}}/u/{{credential.user_id}}/t/{{credential.access_token}}/m/Clients/
+Bizon 365,Add subscriber,https://online.bizon365.ru/api/v1/webinars/subpages/addSubscriber
+ForClasses,Student Search,https://api.moyklass.com/v1/company/users
+ForClasses,New application (entry) to the group,https://api.moyklass.com/v1/company/joins
+ForClasses,Search for a request (entry) to a group,https://api.moyklass.com/v1/company/joins
+ForClasses,Get a student by ID,https://api.moyklass.com/v1/company/users/{{data.id}}
+ForClasses,Get an application (entry) by ID,https://api.moyklass.com/v1/company/joins/{{data.idRequest}}
+ForClasses,Add a student to the class,
+ForClasses,Changing a Student,https://api.moyklass.com/v1/company/users/{{data.id}}
+ForClasses,Add a student to the class,https://app.moyklass.com/api/v1/class/join
+ForClasses,New student,https://api.moyklass.com/v1/company/users
+ProfitCRM,New lead,https://form.profitcrm.ru/integration/common/
+Flowlu1,New contact,{{credential.domain}}api/v1/module/crm/account/create/?api_key={{credential.key}}
+Flowlu1,Email to the counterparty,{{credential.domain}}api/v1/module/crm/email/create/?api_key={{credential.key}}
+SMS4B,Send SMS,https://sms4b.ru/ws/sms.asmx/SendSMS
+test builder,Test1,
+test builder,errorTest,https://webhook.site/35719648-2254-41b8-a86b-880f196c608b
+test builder,test timeOut,https://google.ru
+test builder,test dateUnix,https://webhook.site/29f9da1e-0df9-453f-9245-dbbf915f9d23
+test builder,test api,"https://webhook.site/88f03430-f596-4618-9a54-f27a2082d4f4
+https://webhook.site/619b7578-1a53-4206-ab7f-e78c99020640"
+test builder,Random,{{data.paramsn}}https://api.random.org/json-rpc/2/invoke
+test builder,test IDE,https://app.omie.com.br/api/v1/geral/clientes/
+test builder,Test Erorr Action,https://webhook.site/f7a22acb-0f3c-41d5-97a1-95cf2eed1278
+test builder,sort fields,https://webhook.site/8316b097-dd3b-4663-87f4-925115763929
+test builder,super new test,https://webhook.site/ae0000af-967e-41ad-a37c-a2608e5454f9
+test builder,test HTML error,https://webhook.site/f7a22acb-0f3c-41d5-97a1-95cf2eed1278
+test builder,test IDE requestResponse,https://webhook.site/29f9da1e-0df9-453f-9245-dbbf915f9d23/{{data.var1}}
+test builder,test array in URL,https://superpet.retailcrm.ru/api/v5/orders
+test builder,fsfdsf,https://webhook.site/eadd00f4-76a3-4781-9b6e-132c0df604cf
+test builder,test error msg,https://webhook.site/b8aa4b61-ec82-4ae6-b6e0-90f78a79b163
+test builder,test error msg,https://webhook.site/b8aa4b61-ec82-4ae6-b6e0-90f78a79b163
+test builder,test redirect,https://albato.justclick.ru/api/addtagtolead
+test builder,test sranyi service,https://api.enkod.ru/v1/mail/
+test builder,IDE and error response,https://webhook.site/43dabe97-c95b-4950-95c5-552e25619c7a
+test builder,test empty content-type response,https://webhook.site/1f06610b-b7de-4713-ad1c-9718b742cf00
+test builder,sort row fields,
+DashaMail,New subscriber,https://api.dashamail.com/?method=lists.add_member&username={{credential.username}}&password={{credential.password}}&format=json
+iqSMS,Sending an SMS message,https://api.iqsms.ru/messages/v2/send.json
+retailCRM test,dsfsd,
+retailCRM test,New order,{{credential.domen}}/api/v5/orders/create?apiKey={{credential.apiKey}}
+Mindbox,executeOperation,https://api.mindbox.ru/v3/operations/async?endpointId={{credential.endpoint}}&operation={{credential.operation}}
+AlohaSms,Send message,http://95.213.129.83/xml/
+BAZAR.Media,Send Lead,https://bazar.media/api/albato
+SMSFeedback,Send message,http//api.smsfeedback.ru/messages/v2/send.json?login={{credential.login}}&password={{credential.password}}&{{data.shedultime}}&{{data.clientId}}&{{data.phone}}&{{data.text}}&{{data.sender}}
++karma,Sending an SMS message,http://p.pluskarma.ru/quick
+SMSC,Sending an SMS message,https://smsc.ru/sys/send.php
+i-digital direct,Sending an SMS message,https://direct.i-dgtl.ru/api/v1/message
+i-digital direct,Sending a Viber message,https://direct.i-dgtl.ru/api/v1/message
+i-digital direct,Sending a VK message,https://direct.i-dgtl.ru/api/v1/message
+SMS Pobeda,Send SMS (neutral name),https://api.zmtech.ru:7778/v1/neutral
+Bitly,Shorten a Link,https://api-ssl.bitly.com/v4/shorten
+HubSpot,New contact added,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Contact updated,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Create new contact,https://api.hubapi.com/crm/v3/objects/contacts
+HubSpot,Find contact,https://api.hubapi.com/crm/v3/objects/contacts/search
+Hollihop,New lead,https://{{credential.234242}}/Api/V2/GetLeads
+Hollihop,New payment,https://{{credential.234242}}/Api/V2/GetPayments
+Hollihop,New Study Requests,https://{{credential.234242}}/Api/V2/GetStudyRequests
+Hollihop,Get Lead Status,https://{{credential.234242}}/Api/V2/GetHistoryModifyLeadStatus
+Hollihop,Add Student,https://{{credential.234242}}/Api/V2/AddStudent
+Hollihop,Add Lead,http://{{credential.234242}}/Api/V2/AddLead
+Hollihop,Add Payment,https://{{credential.234242}}/Api/V2/AddPayment
+Hollihop,Update Payment,https://{{credential.234242}}/Api/V2/EditPayment
+Hollihop,Add EdUnit Payment,https://{{credential.234242}}/Api/V2/AddEdUnitPayment
+Hollihop,Add Student From Lead,https://{{credential.234242}}/Api/V2/AddStudentFromLead
+Hollihop,Set Lead Status,https://{{credential.234242}}/Api/V2/SetLeadStatus
+Hollihop,Set Client Status,https://{{credential.234242}}/Api/V2/SetClientStatus
+Hollihop,Add EdUnit lead,https://{{credential.234242}}/Api/V2/AddEdUnitLead
+Hollihop,Add EdUnit Student,https://{{credential.234242}}/Api/V2/AddEdUnitStudent
+Activecampaign,Create contact,https://{{credential.Account}}.api-us1.com/api/3/contacts
+Activecampaign,Create/update contact,https://{{credential.Account}}.api-us1.com/api/3/contact/sync
+Activecampaign,Find contact,https://{{credential.Account}}.api-us1.com/api/3/contacts
+Activecampaign,Create a deal,https://{{credential.Account}}.api-us1.com/api/3/deals
+Activecampaign,Create deal task,https://{{credential.Account}}.api-us1.com/api/3/dealTasks?ownerType=deal
+Activecampaign,Find deal by name,https://{{credential.Account}}.api-us1.com/api/3deals
+Activecampaign,Find a deal by contact id,https://{{credential.Account}}.api-us1.com/api/3/deals
+Activecampaign,Update deal ин id,https://{{credential.Account}}.api-us1.com/api/3/deals/{{data.dealid}}
+Eyenewton,Call,https://eyenewton.ru/api/v1/json
+Eyenewton,Create Call,https://eyenewton.ru/api/v1/json
+Eyenewton,Create Application Request,https://eyenewton.ru/api/v1/json
+Eyenewton,Load deal,https://eyenewton.ru/api/v1/json
+SMS Aero,Sending an SMS message,https://gate.smsaero.ru/v2/sms/send
+ALphaSMS,SMS,https://alphasms.ua/api/json-01a.php
+ALphaSMS,Text message to Viber,https://alphasms.ua/api/json-01a.php
+ALphaSMS,Text+link to Viber,https://alphasms.ua/api/json-01a.php
+ALphaSMS,Text+image to Viber,https://alphasms.ua/api/json-01a.php
+Twilio,Send SMS,https://api.twilio.com/2010-04-01/Accounts/{{auth.login}}/Messages.json
+SigmaSMS,registration,https://online.sigmasms.ru/api/registration
+DaCRM,create a deal,{{credential.webhook}}
+PlatformaOFD,Z_Report,https://api.evotor.ru/api/v1/ofd/documents/{{credential.storeId}}
+PlatformaOFD,SELL_RETURN,https://api.evotor.ru/api/v1/ofd/documents/0?deviceId=0004492759049741&type=SELL&from=2021-12-07T08:24:01.000Z&to=2021-12-07T09:24:01.000Z
+PlatformaOFD,GetDocuments,https://api.evotor.ru/api/v1/ofd/documents/{{credential.storeId}}
+EasyWeek,New User Bookings,https://my.easyweek.io/api/ext/user/bookings
+EasyWeek,New Bookings,https://my.easyweek.io/api/ext/bookings
+SalesDrive,New order,https://goodboysystems.salesdrive.me/handler/
+SalesDrive,Add / update goods,https://goodboysystems.salesdrive.me/product-handler/
+Convertkit,Add Subscriber to Form,https://api.convertkit.com/v3/forms/{{data.form}}/subscribe
+Convertkit,Tag a subscriber,https://api.convertkit.com/v3/tags/{{data.tags}}/subscribe
+Convertkit,Add subscriber to a sequence,https://api.convertkit.com/v3/sequences/{{data.sequences}}/subscribe
+Convertkit,Create a Purchase,https://api.convertkit.com/v3/purchases
+Convertkit,Remove tag from a subscriber by email,https://api.convertkit.com/v3/tags/{{data.tags}}/unsubscribe/
+Clickmeeting,New contact,https://api.clickmeeting.com/v1/contacts
+Clickmeeting,Register participant,https://api.clickmeeting.com/v1/conferences/{{data.roomid}}/registration
+Clickmeeting,Adding new conference room,https://api.clickmeeting.com/v1/conferences
+Smsdigital,Send SMS,https://ws.smsdigital.com.br/sms/envio
+Planfact,New account,https://api.planfact.io/api/v1/accounts
+Planfact,Create a new invoice,https://api.planfact.io/api/v1/invoices/income
+Planfact,Find product,https://api.planfact.io/api/v1/products
+Planfact,Find counterparty,https://api.planfact.io/api/v1/contragents
+SMS.RU,Send SMS,http://sms.ru/sms/send?json=1&partner_id=147064&api_id={{credential.token}}
+300 bucks,api trigger,https://webhook.site/67ed1af8-9ddf-4039-ac1c-0c40d88d65ff
+300 bucks,url,https://api-ssl.bitly.com/v4/shorten
+300 bucks,test,https://webhook.site/16900107-4592-47f3-b506-33ad1d2b9e37
+Yandex.Metrics - Custom34324,sdfsdf,
+300 bucks123123,Calltouch Поиск звонка,http://api.calltouch.ru/calls-service/RestAPI/{{credential.siteId}}/calls-diary/calls
+CallTracking.ru,New call,https://calltracking.ru/api/get_data.php
+CallTracking.ru,New request,https://calltracking.ru/api/get_form_data.php
+testRefresh,asdasdas,https://webhook.site/7780b56f-a632-41f8-a664-76c3b587a003
+kissmetrics.com,Event,http://trk.kissmetrics.com/e?_k={{credential.token}}
+Test,Добавить сотрудника,https://api.moyklass.com/v1/company/users
+test_service,test,https://api.randomdatatools.ru/
+New test templ,test,
+New test templ,test action,
+New test templ,XML action,https://webhook.site/6bcdbeac-2843-4fe2-b3b3-349ced5ca2a4
+ClickUp,test,https://api.clickup.com/api/v2/list/{{credentialWizard.listWiz123}}/task
+ClickUp,test123123321,https://webhook.site/21713dae-770e-4a21-af67-31397258cc9f
+ClickUp,уафывааываыфафвыфывафыавфыав,
+UniSender,Download contact list,"https://api.unisender.com/ru/api/async/exportContacts
+https://api.unisender.com/ru/api/async/getTaskResult
+{{data.file}}"
+UniSender,sdfsdfsad,
+UniSender,Upload contact list,https://api.unisender.com/ru/api/importContacts
+MailChimp,Add subscriber to the list,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members/
+emtpy error for front,fsdfsdfsd,https://google.com
+wizardBug,test,albato.ru
+OnlyEng,dsfsdffsd,google.com
+test2492,act1,https://webhook.site/dbea2753-a752-4d69-83f2-62f69abbfe3e
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,Set a conversation topic in a public channel,https://slack.com/api/conversations.setTopic
+Slack,Invite a user to a public channel,https://slack.com/api/conversations.invite
+Slack,Plans to send a message to a public Slack channel,https://slack.com/api/chat.scheduleMessage
+Slack,Find a user by Email,https://slack.com/api/users.lookupByEmail
+Slack,Find a user by ID,https://slack.com/api/users.profile.get
+Slack,Send a message to a private channel,https://slack.com/api/chat.postMessage
+Slack,Schedule a message to be sent to a private channel,https://slack.com/api/chat.scheduleMessage
+Slack,Send a private message to the user in a private channel,https://slack.com/api/chat.postEphemeral
+Slack,Send a message to a public channel,https://slack.com/api/chat.postMessage
+Slack,Set a conversation topic in a private Slack channel,https://slack.com/api/conversations.setTopic
+Slack,Send a private message to a user in a public channel,https://slack.com/api/chat.postEphemeral
+Slack,Send a private message to a user,https://slack.com/api/chat.postMessage
+Zoom,,
+Zoom,,
+Zoom,,
+Zoom,,
+Zoom,Create webinar,https://api.zoom.us/v2/users/me/webinars
+Zoom,Create meeting,https://api.zoom.us/v2/users/me/meetings
+Zoom,Add meeting registrant,https://api.zoom.us/v2/meetings/{{data.meetingId}}/registrants
+Zoom,Add webinar registrant,https://api.zoom.us/v2/webinars/{{data.webinarId}}/registrants
+CallKeeper,Calls,https://api.callkeeper.ru/getCallsInfo
+CallKeeper,Call request,https://api.callkeeper.ru/orderCall
+translation test,New deal,https://webhook.site/dbea2753-a752-4d69-83f2-62f69abbfe3e
+UniSender,Download contact list,"https://api.unisender.com/ru/api/async/exportContacts
+https://api.unisender.com/ru/api/async/getTaskResult
+{{data.file}}"
+UniSender,sdfsdfsad,
+UniSender,Upload contact list,https://api.unisender.com/ru/api/importContacts
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,New contact added,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Contact updated,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,New ticket,https://api.hubapi.com/crm/v3/objects/tickets/search
+HubSpot,Ticket changed,https://api.hubapi.com/crm/v3/objects/tickets/search
+HubSpot,New contact added21312321,аыфвафываф
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,Update note,https://api.hubapi.com/crm/v3/objects/notes/{{data.id}}
+HubSpot,Update an object property,https://api.hubapi.com/crm/v3/properties/{{data.objectType}}/{{data.propertyName}}
+HubSpot,Update contact,https://api.hubapi.com/crm/v3/objects/contacts/{{data.id}}
+HubSpot,Associate a note with another object,https://api.hubapi.com/crm/v3/objects/notes/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Get object properties,https://api.hubapi.com/crm/v3/properties/{{data.objectType}}/{{data.propertyName}}
+HubSpot,New deal,https://api.hubapi.com/crm/v3/objects/deals
+HubSpot,Create new task,https://api.hubapi.com/crm/v3/objects/tasks
+HubSpot,Create new ticket (BETA),https://api.hubapi.com/crm/v3/objects/tickets
+HubSpot,Update the deal,https://api.hubapi.com/crm/v3/objects/deals/{{data.dealId}}
+HubSpot,Update task,https://api.hubapi.com/crm/v3/objects/tasks/{{data.id}}
+HubSpot,Update ticket (BETA),https://api.hubapi.com/crm/v3/objects/ticket/{{data.id}}
+HubSpot,Associate a deal with another object,https://api.hubapi.com/crm/v3/objects/deals/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Associate a task with another object,https://api.hubapi.com/crm/v3/objects/tasks/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Create new note,https://api.hubapi.com/crm/v3/objects/notes
+HubSpot,Get a list of contact associations by type,https://api.hubapi.com/crm/v3/objects/contacts/{{data.contactId}}/associations/{{data.toObjectType}}
+HubSpot,Find contact,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Send a transactional email,https://api.hubapi.com/marketing/v3/transactional/single-email/send
+HubSpot,Find contact,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Create new contact,https://api.hubapi.com/crm/v3/objects/contacts
+HubSpot,TEST,https://api.hubapi.com/crm/v3/properties/contacts
+Test files (wow),add file,https://www.googleapis.com/upload/drive/v3/files?uploadType=media
+Test files (wow),getFile,https://www.googleapis.com/drive/v3/files/{{data.fileid}}/
+XML feed,feed,https://www.sunnyflowerdelivery.com/xmlfeed/feed.xml
+MailChimp,List members info,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members
+MailChimp,List members info1231,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members
+MailChimp,,
+MailChimp,,
+MailChimp,,
+MailChimp,,
+MailChimp,Add subscriber to the list,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members/
+MailChimp,Add a tag to a subscriber,{{auth.domain}}/3.0/lists/{{credentialWizard.listIdWizWthCustom}}/members/
+MailChimp,Remove tag from subscriber,{{auth.domain}}/3.0/lists/{{credentialWizard.listIdWizWthCustom}}/members/
+MailChimp,List members info,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members
+MailChimp,List members info1231,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members
+MailChimp,,
+MailChimp,,
+MailChimp,,
+MailChimp,,
+MailChimp,Add subscriber to the list,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members/
+MailChimp,Add a tag to a subscriber,{{auth.domain}}/3.0/lists/{{credentialWizard.listIdWizWthCustom}}/members/
+MailChimp,Remove tag from subscriber,{{auth.domain}}/3.0/lists/{{credentialWizard.listIdWizWthCustom}}/members/
+MindBox,Uploaded audience,"https://{{credential.domain}}/v3/operations/sync?operation={{data.operation}}
+https://{{credential.domain}}/v3/operations/sync?operation={{data.operation}}
+{{data.exportUrl}}"
+MindBox,Create and subscribe to newsletters,https://{{credential.domain}}/v3/operations/async?operation=media.LeadAdsSubscrition
+MindBox,Create or update a client,https://{{credential.domain}}/v3/operations/async?operation={{data.operation}}
+MindBox,Create or update an order,https://{{credential.domain}}/v3/operations/async?operation={{data.operation}}
+MindBox,Create or update a product,https://{{credential.domain}}/v3/operations/async?operation={{data.operation}}
+Selzy ,,
+Selzy ,,
+Selzy ,Download contact list,"https://api.selzy.com/en/api/async/exportContacts?platform=albato
+https://api.selzy.com/en/async/getTaskResult?platform=albato
+{{data.file}}?platform=albato"
+Selzy ,,
+Selzy ,,
+Selzy ,Add a new contact,https://api.selzy.com/en/api/subscribe?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Add many contacts,https://api.selzy.com/en/api/importContacts?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Sending a single email (transactional),https://api.selzy.com/en/api/sendEmail
+Selzy ,,
+Selzy ,,
+Selzy ,Sending a single SMS (transactional),https://api.selzy.com/en/api/sendSms
+Selzy ,,
+Selzy ,,
+Selzy ,Create an Email newsletter,https://api.selzy.com/en/api/createEmailMessage?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Send a previously created Email newsletter,https://api.selzy.com/en/api/createCampaign?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Create an SMS newsletter,https://api.selzy.com/en/api/createSmsMessage
+Selzy ,,
+Selzy ,,
+Selzy ,Send a previously created SMS newsletter,https://api.selzy.com/en/api/createCampaign?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Exclude a contact from one or more lists,https://api.selzy.com/en/api/exclude?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Unsubscribe the recipient from the mailing list,https://api.selzy.com/en/api/unsubscribe?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Get contact information by Email,https://api.selzy.com/en/api/getContact?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Create a new contact list,https://api.selzy.com/en/api/createList?platform=albato
+Selzy ,,
+Selzy ,,
+Selzy ,Change list properties,https://api.selzy.com/en/api/updateList
+Selzy ,,
+Selzy ,,
+Selzy ,Delete Contact List,https://api.selzy.com/en/api/deleteList
+Selzy ,Get email status,https://api.selzy.com/en/api/checkEmail
+ForClasses,Student Search,https://api.moyklass.com/v1/company/users
+ForClasses,New application (entry) to the group,https://api.moyklass.com/v1/company/joins
+ForClasses,Search for a request (entry) to a group,https://api.moyklass.com/v1/company/joins
+ForClasses,Get a student by ID,https://api.moyklass.com/v1/company/users/{{data.id}}
+ForClasses,Get an application (entry) by ID,https://api.moyklass.com/v1/company/joins/{{data.idRequest}}
+ForClasses,Add a student to the class,
+ForClasses,Changing a Student,https://api.moyklass.com/v1/company/users/{{data.id}}
+ForClasses,Add a student to the class,https://app.moyklass.com/api/v1/class/join
+ForClasses,New student,https://api.moyklass.com/v1/company/users
+CoMagic,Call,https://dataapi.comagic.ru/v2.0
+CoMagic,Set Sale tag,https://dataapi.comagic.ru/v2.0
+CoMagic,Set tag,https://dataapi.comagic.ru/v2.0
+CoMagic,Unset tag,https://dataapi.comagic.ru/v2.0
+CoMagic,New offline message,https://dataapi.comagic.ru/v2.0
+CoMagic,New call,https://dataapi.comagic.ru/v2.0
+UIS,Call,https://dataapi.uiscom.ru/v2.0
+UIS,Set Sale tag,https://dataapi.uiscom.ru/v2.0
+UIS,Set tag,https://dataapi.uiscom.ru/v2.0
+UIS,Unset tag,https://dataapi.uiscom.ru/v2.0
+UIS,New offline message,https://dataapi.uiscom.ru/v2.0
+UIS,New call,https://dataapi.uiscom.ru/v2.0
+CallGear,Call,https://dataapi.callgear.ru/v2.0
+CallGear,Set Sale tag,https://dataapi.callgear.ru/v2.0
+CallGear,Set tag,https://dataapi.callgear.ru/v2.0
+CallGear,Unset tag,https://dataapi.callgear.ru/v2.0
+CallGear,New offline message,https://dataapi.callgear.ru/v2.0
+CallGear,New call,https://dataapi.callgear.ru/v2.0
+test_service,test,https://api.randomdatatools.ru/
+copyCustomFields,test,sfdsdf
+ClickUp (actual),test,https://api.clickup.com/api/v2/list/{{credentialWizard.listWiz}}/task
+ClickUp (actual),test123123321,https://webhook.site/21713dae-770e-4a21-af67-31397258cc9f
+ClickUp (actual),уафывааываыфафвыфывафыавфыав,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,,
+Slack,Set a conversation topic in a public channel,https://slack.com/api/conversations.setTopic
+Slack,Invite a user to a public channel,https://slack.com/api/conversations.invite
+Slack,Plans to send a message to a public Slack channel,https://slack.com/api/chat.scheduleMessage
+Slack,Find a user by Email,https://slack.com/api/users.lookupByEmail
+Slack,Find a user by ID,https://slack.com/api/users.profile.get
+Slack,Send a message to a private channel,https://slack.com/api/chat.postMessage
+Slack,Schedule a message to be sent to a private channel,https://slack.com/api/chat.scheduleMessage
+Slack,Send a private message to the user in a private channel,https://slack.com/api/chat.postEphemeral
+Slack,Send a message to a public channel,https://slack.com/api/chat.postMessage
+Slack,Set a conversation topic in a private Slack channel,https://slack.com/api/conversations.setTopic
+Slack,Send a private message to a user in a public channel,https://slack.com/api/chat.postEphemeral
+Slack,Send a private message to a user,https://slack.com/api/chat.postMessage
+Microsoft Office 365,Create new contact,https://graph.microsoft.com/v1.0/me/contacts
+Microsoft Office 365,New messages in email,https://graph.microsoft.com/v1.0/me/messages
+Microsoft Office 365,Update event in calendar,https://graph.microsoft.com/v1.0/me/events
+Microsoft Office 365,Create event in calendar,https://graph.microsoft.com/v1.0/me/events
+Microsoft Office 365,Create contact,https://graph.microsoft.com/v1.0/me/contacts
+Microsoft Office 365,Create draft email,https://graph.microsoft.com/v1.0/me/messages
+Microsoft Office 365,Send email,https://graph.microsoft.com/v1.0/me/messages/{{data.id}}/send
+Microsoft Office 365,Updates a contact,https://graph.microsoft.com/v1.0/me/contacts/{{data.id}}
+Microsoft Office 365,Find a contact by email address(or ID),https://graph.microsoft.com/v1.0/me/contacts
+Microsoft Office 365,Create Event,https://graph.microsoft.com/v1.0/me/calendars/{{data.id}}/events
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,New contact added,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Contact updated,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,New ticket,https://api.hubapi.com/crm/v3/objects/tickets/search
+HubSpot,Ticket changed,https://api.hubapi.com/crm/v3/objects/tickets/search
+HubSpot,New contact added21312321,аыфвафываф
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,,
+HubSpot,Update note,https://api.hubapi.com/crm/v3/objects/notes/{{data.id}}
+HubSpot,Update an object property,https://api.hubapi.com/crm/v3/properties/{{data.objectType}}/{{data.propertyName}}
+HubSpot,Update contact,https://api.hubapi.com/crm/v3/objects/contacts/{{data.id}}
+HubSpot,Associate a note with another object,https://api.hubapi.com/crm/v3/objects/notes/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Get object properties,https://api.hubapi.com/crm/v3/properties/{{data.objectType}}/{{data.propertyName}}
+HubSpot,New deal,https://api.hubapi.com/crm/v3/objects/deals
+HubSpot,Create new task,https://api.hubapi.com/crm/v3/objects/tasks
+HubSpot,Create new ticket (BETA),https://api.hubapi.com/crm/v3/objects/tickets
+HubSpot,Update the deal,https://api.hubapi.com/crm/v3/objects/deals/{{data.dealId}}
+HubSpot,Update task,https://api.hubapi.com/crm/v3/objects/tasks/{{data.id}}
+HubSpot,Update ticket (BETA),https://api.hubapi.com/crm/v3/objects/ticket/{{data.id}}
+HubSpot,Associate a deal with another object,https://api.hubapi.com/crm/v3/objects/deals/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Associate a task with another object,https://api.hubapi.com/crm/v3/objects/tasks/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Create new note,https://api.hubapi.com/crm/v3/objects/notes
+HubSpot,Get a list of contact associations by type,https://api.hubapi.com/crm/v3/objects/contacts/{{data.contactId}}/associations/{{data.toObjectType}}
+HubSpot,Find contact,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Send a transactional email,https://api.hubapi.com/marketing/v3/transactional/single-email/send
+HubSpot,Find contact,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Create new contact,https://api.hubapi.com/crm/v3/objects/contacts
+HubSpot,TEST,https://api.hubapi.com/crm/v3/properties/contacts
+test opt,test1,test
+test opt,test234,
+test opt,test234,
+Callibri,New call,https://api.callibri.ru/site_get_statistics
+Callibri,New chat,"https://api.callibri.ru/site_get_statistics
+https://api.callibri.ru/chat/history?id={{data.id}}"
+Callibri,New feedback,https://api.callibri.ru/site_get_statistics
+Active,create/updated contact,https://{{credential.Account}}.api-us1.com/api/3/contact/sync
+Salesforce TEST,update,{{auth.instanceUrlDomain}}/services/data/v55.0/query
+Google Forms,,
+Google Forms,,
+Google Forms,New answer by form,https://forms.googleapis.com/v1/forms/{{credentialWizard.Formid}}/responses
+DEV3666,Test,https://webhook.site/9ff38879-e456-4a4d-beda-863331e2f1e3
+DEV3666,Test2,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,Upload statistics on webinars,https://userapi.webinar.ru/v3/stats/events
+Webinar,The webinar is completed,https://userapi.webinar.ru/v3/organization/events/schedule
+Webinar,The webinar is over. Get participants,"https://userapi.webinar.ru/v3/organization/events/schedule
+https://userapi.webinar.ru/v3/eventsessions/{{data.eventSessionsID}}/participations"
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,,
+Webinar,Получить сообщения чата,https://userapi.webinar.ru/v3/eventsessions/{{data.eventsessionID}}/chat
+Webinar,Получить данные о контакте,https://userapi.webinar.ru/v3/contacts/{{data.contactsID}}
+Webinar,Отправить сообщение в чат,https://userapi.webinar.ru/v3/eventsessions/{{data.eventsessionID}}/chat
+Webinar,Получить результаты прохождения тестов конкретного участника,https://userapi.webinar.ru/v3/users/{{data.userId}}/tests/stats
+Webinar,Обновить контакт,https://userapi.webinar.ru/v3/contacts/{{data.id}}
+Webinar,Получить результаты теста,https://userapi.webinar.ru/v3/tests/{{data.testId}}/results
+Webinar,Добавить теги к контактам,https://userapi.webinar.ru/v3/contacts/tags/add
+Webinar,Выгрузить статистику по участникам,https://userapi.webinar.ru/v3/stats/users
+Webinar,Удалить контакт,https://userapi.webinar.ru/v3/contacts/{{data.contactId}}
+Webinar,Создать контакт,https://userapi.webinar.ru/v3/users/{{data.userID}}/contacts
+Webinar,Получить файл по его идентификатору,https://userapi.webinar.ru/v3/fileSystem/file/{{data.fileID}}
+Webinar,Зарегистрировать участника,https://userapi.webinar.ru/v3/eventsessions/{{data.eventsessionID}}/register
+Webinar,Выгрузить список участников мероприятия,https://userapi.webinar.ru/v3/eventsessions/{{data.eventsessionID}}/participations
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),Create new contact,https://graph.microsoft.com/v1.0/me/contacts
+Microsoft Office 365 (2),New messages in email,https://graph.microsoft.com/v1.0/me/messages
+Microsoft Office 365 (2),Update event in calendar,https://graph.microsoft.com/v1.0/me/events
+Microsoft Office 365 (2),Create event in calendar,https://graph.microsoft.com/v1.0/me/events
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),,
+Microsoft Office 365 (2),Create contact,https://graph.microsoft.com/v1.0/me/contacts
+Microsoft Office 365 (2),Create draft email,https://graph.microsoft.com/v1.0/me/messages
+Microsoft Office 365 (2),Send email,https://graph.microsoft.com/v1.0/me/messages/{{data.id}}/send
+Microsoft Office 365 (2),Updates a contact,https://graph.microsoft.com/v1.0/me/contacts/{{data.id}}
+Microsoft Office 365 (2),Find a contact by email address(or ID),https://graph.microsoft.com/v1.0/me/contacts
+Microsoft Office 365 (2),Create Event,https://graph.microsoft.com/v1.0/me/calendars/{{data.id}}/events
+Tinkoff Business,Get a client's account statement for a certain period,https://business.tinkoff.ru/openapi/api/v1/bank-statement?accountNumber={{data.accountNumber}}&from={{data.from}}&till={{data.till}}
+Tinkoff Business,Pay the self-employed. Create a draft of the payment register,https://business.tinkoff.ru/openapi/api/v1/self-employed/payment-registry/create
+Tinkoff Business,Get company information,https://business.tinkoff.ru/openapi/api/v1/company
+Tinkoff Business,Issue a Tinkoff card to the self-employed. Create a draft application form for issuing a card (residents of Russia),https://business.tinkoff.ru/openapi/api/v1/self-employed/recipients/create
+Tinkoff Business,Issue a Tinkoff card to the self-employed. Create a draft application form for issuing a card (non-residents of Russia),https://business.tinkoff.ru/openapi/api/v1/self-employed/recipients/create
+Yandex WEBMASTER,test,google.com
+test4347v2.0,a1,https://webhook.site/819f07d0-9568-4e33-89a3-89c5c0615623
+2test4347v4,a1,https://webhook.site/819f07d0-9568-4e33-89a3-89c5c0615623
+3test4347,a1,https://webhook.site/819f07d0-9568-4e33-89a3-89c5c0615623
+Описания экшенов,WOW,url.com
+integromat,trigger,https://www.ru
+integromat,action,https://www.ru
+HubSpot,New contact added,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Contact updated,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,New deal added,https://api.hubapi.com/crm/v3/objects/deals/search
+HubSpot,Deal updated,https://api.hubapi.com/crm/v3/objects/deals/search
+HubSpot,New deal added (Custom fields in row section),https://api.hubapi.com/crm/v3/objects/deals/search
+HubSpot,Deal updated (Custom fields in row section),https://api.hubapi.com/crm/v3/objects/deals/search
+HubSpot,New ticket,https://api.hubapi.com/crm/v3/objects/tickets/search
+HubSpot,Ticket changed,https://api.hubapi.com/crm/v3/objects/tickets/search
+HubSpot,New Company,https://api.hubapi.com/crm/v3/objects/companies/search
+HubSpot,Company changed,https://api.hubapi.com/crm/v3/objects/companies/search
+HubSpot,Create new Contact,https://api.hubapi.com/crm/v3/objects/contacts
+HubSpot,Update Contact,https://api.hubapi.com/crm/v3/objects/contacts/{{data.id}}
+HubSpot,Get a Contact by ID,https://api.hubapi.com/crm/v3/objects/contacts/{{data.id}}
+HubSpot,Find Contact,https://api.hubapi.com/crm/v3/objects/contacts/search
+HubSpot,Get a List of Contact associations by Type,https://api.hubapi.com/crm/v3/objects/contacts/{{data.contactId}}/associations/{{data.toObjectType}}
+HubSpot,New Deal,https://api.hubapi.com/crm/v3/objects/deals
+HubSpot,Update the Deal,https://api.hubapi.com/crm/v3/objects/deals/{{data.dealId}}
+HubSpot,Find Deals,https://api.hubapi.com/crm/v3/objects/deals/search
+HubSpot,Get a List of Deal associations by Type,https://api.hubapi.com/crm/v3/objects/deals/{{data.contactId}}/associations/{{data.toObjectType}}
+HubSpot,Associate a Deal with another Object,https://api.hubapi.com/crm/v3/objects/deals/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Create new Task,https://api.hubapi.com/crm/v3/objects/tasks
+HubSpot,Update Task,https://api.hubapi.com/crm/v3/objects/tasks/{{data.id}}
+HubSpot,Associate a Task with another Object,https://api.hubapi.com/crm/v3/objects/tasks/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Create new Ticket (BETA),https://api.hubapi.com/crm/v3/objects/tickets
+HubSpot,Update Ticket (BETA),https://api.hubapi.com/crm/v3/objects/ticket/{{data.id}}
+HubSpot,Create new Note,https://api.hubapi.com/crm/v3/objects/notes
+HubSpot,Update Note,https://api.hubapi.com/crm/v3/objects/notes/{{data.id}}
+HubSpot,Associate a Note with another Object,https://api.hubapi.com/crm/v3/objects/notes/{{data.dealId}}/associations/{{data.toObjectType}}/{{data.toObjectId}}/{{data.associationType}}
+HubSpot,Get Object properties,https://api.hubapi.com/crm/v3/properties/{{data.objectType}}/{{data.propertyName}}
+HubSpot,Update an object property,https://api.hubapi.com/crm/v3/properties/{{data.objectType}}/{{data.propertyName}}
+HubSpot,Send a transactional email,https://api.hubapi.com/marketing/v3/transactional/single-email/send
+HubSpot,Submit data to a form,https://api.hsforms.com/submissions/v3/integration/secure/submit/{{data.portalId}}/{{credentialWizard.formsWiz}}
+HubSpot,Company search,https://api.hubapi.com/crm/v3/objects/companies/search
+HubSpot,Get the pipeline of an object by ID,https://api.hubapi.com/crm/v3/pipelines/{{data.objectType}}/{{data.pipelineId}}
+HubSpot,Get the pipeline stage of an object by ID,https://api.hubapi.com/crm/v3/pipelines/{{data.objectType}}/{{data.pipelineId}}/stages/{{data.stageId}}
+HubSpot,Link items of goods\/services to a deal,https://api.hubapi.com/crm/v3/objects/line_items/batch/create
+HubSpot,Product Search,https://api.hubapi.com/crm/v3/objects/products/search
+DEV4440,test 1,
+DEV4440,test 1,https://webhook.site/1e758d17-abf7-4042-97df-1917f7e7d3f3
+4440,test ,
+Сервис просто паблик,Супер действие,https://www.superapi.com/v3/kek
+Сервис просто паблик,второе действие,https://www.superapi.com/v2/cheburek
+Сервис просто паблик,другой урл,https://www.analogurl.com/v3/kek
+Паблик + приватка,Супер действие,https://www.superapi.com/v3/kek
+Паблик + приватка,второе действие,https://www.superapi.com/v2/cheburek
+Паблик + приватка,другой урл,https://www.analogurl.com/v3/kek
+Паблик + домен + системВар,Экшн1,{{credential.domain}}endpoint/
+Паблик + домен + системВар,Экшн2,{{credential.domain}}endpoint2/
+SendPulse,New contact,https://api.sendpulse.com/addressbooks/{{credentialWizard.addressBookId}}/emails
+SendBox,New contact,https://mailer-api.i.bizml.ru/addressbooks/{{credentialWizard.addressBookId}}/emails
+2test4490,2act4490,
+InSales,Contact updated,{{credential.domain}}/admin/clients.json
+InSales,new client,{{credential.domain}}/admin/clients.json
+InSales,New order,"{{credential.domain}}/admin/orders.json
+{{credential.domain}}/admin/orders/{{data.orderId}}.json"
+InSales,Update order by ID,"{{credential.domain}}/admin/orders/{{data.orderId}}.json
+{{credential.domain}}/admin/orders/{{data.orderId}}.json"
+Mango Office,New deal,https://widgets-api.mango-office.ru/v1/calltracking/{{data.widgetId}}/deals/albato
+Mango Office,Call notification,https://widgets-api.mango-office.ru/v1/calltracking/externalCall
+Mango Office,Route a call,https://app.mango-office.ru/vpbx/commands/route
+Mango Office,Create a client,https://app.mango-office.ru/vpbx/ab/contacts/create
+Mango Office,Update client,https://app.mango-office.ru/vpbx/ab/contacts/update
+Mango Office,Make a call,https://app.mango-office.ru/vpbx/commands/callback
+Mango Office,Make a call on behalf of a group,https://app.mango-office.ru/vpbx/commands/callback_group
+Mango Office Contact Center,Create a task in the call center,https://app.mango-office.ru/cc/task/add
+Mango Office Contact Center,Find contact,https://app.mango-office.ru/vpbx/ab/contact/init
+Mango Office Contact Center,Add a task to an outgoing call campaign,https://app.mango-office.ru/vpbx/tasks/push
+UniOne,Send a email via a template,{{credential.domain}}/en/transactional/api/v1/email/send.json
+UniOne,Send Email,{{credential.domain}}/en/transactional/api/v1/email/send.json
+UniOne,Creates or Updates an Email Template,{{credential.domain}}/en/transactional/api/v1/template/set.json
+Slack NEW,Send a message to a public channel,https://slack.com/api/chat.postMessage
+Slack NEW,Send a message to a private channel,https://slack.com/api/chat.postMessage
+Slack NEW,Send a private message to a user,https://slack.com/api/chat.postMessage
+Slack NEW,Set a conversation topic in a public channel,https://slack.com/api/conversations.setTopic
+Slack NEW,Invite a user to a public channel,https://slack.com/api/conversations.invite
+Slack NEW,Plans to send a message to a public Slack channel,https://slack.com/api/chat.scheduleMessage
+Slack NEW,Find a user by Email,https://slack.com/api/users.lookupByEmail
+Slack NEW,Find a user by ID,https://slack.com/api/users.profile.get
+Slack NEW,Schedule a message to be sent to a private channel,https://slack.com/api/chat.scheduleMessage
+Slack NEW,Send a private message to the user in a private channel,https://slack.com/api/chat.postEphemeral
+Slack NEW,Set a conversation topic in a private Slack channel,https://slack.com/api/conversations.setTopic
+Slack NEW,Send a private message to a user in a public channel,https://slack.com/api/chat.postEphemeral
+Slack NEW,Create a post\/file on a public Slack channel,https://slack.com/api/files.upload
+Slack NEW,Create a post\/file on a private Slack channel,https://slack.com/api/files.upload
+Slack NEW,Create Channel DELETE,https://slack.com/api/Schema.slack.functions.CreateChannel
+test4947,act,https://webhook.site/525b6a4e-2b43-4d4b-a781-e7b9d0073a91
+2test4947,act,https://webhook.site/525b6a4e-2b43-4d4b-a781-e7b9d0073a91
+3test4947,act,https://webhook.site/525b6a4e-2b43-4d4b-a781-e7b9d0073a91
+Sellix,Order Cancelled,https://dev.sellix.io/v1/orders
+Sellix,Order Completed,https://dev.sellix.io/v1/orders
+Sellix,Create a Product,https://dev.sellix.io/v1/products
+Sellix,Update a Product,https://dev.sellix.io/v1/products/{{data.data_uniqid}}
+Sellix,Search Product by ID,https://dev.sellix.io/v1/products/{{data.id}}
+Sellix,Create Customer,https://dev.sellix.io/v1/customers
+Sellix,Update Customer,https://dev.sellix.io/v1/customers/{{data.data_uniqid}}
+Sellix,Search Customer by ID,https://dev.sellix.io/v1/customers/{{data.CUSTOMER_ID}}
+Sellix,Create a Subscription,https://dev.sellix.io/v1/subscriptions
+Sellix,Get a Subscription by ID,https://dev.sellix.io/v1/subscriptions/{{data.uniqid}}
+Sellix,Create a Payment,https://dev.sellix.io/v1/payments
+Megaplan,New message,{{credential.domain}}/api/v3/message
+Megaplan,New client (company),{{credential.domain}}/api/v3/contractorCompany
+Megaplan,Update Client (company),{{credential.domain}}/api/v3/contractorCompany/{{data.id}}
+Megaplan,Get a client (company) by ID,{{credential.domain}}/api/v3/contractorCompany/{{data.id}}
+Megaplan,Customer Search (company),"{{credential.domain}}/api/v3/contractorCompany/search?{""q"":""{{data.q}}""}"
+Megaplan,New client (person),{{credential.domain}}/api/v3/contractorHuman
+Megaplan,Update client (person),{{credential.domain}}/api/v3/contractorHuman/{{data.id}}
+Megaplan,Get a client (person) by ID,{{credential.domain}}/api/v3/contractorHuman/{{data.id}}
+Megaplan,Customer search (person),"{{credential.domain}}/api/v3/contractorHuman/search?{""q"": ""{{data.q}}""}"
+Megaplan,Add a new product,{{credential.domain}}/api/v3/offer
+Megaplan,Product Update,{{credential.domain}}/api/v3/offer/{{data.id}}
+Megaplan,New deal,{{credential.domain}}/api/v3/deal
+Megaplan,Update the deal,"{{credential.domain}}/api/v3/deal/{{data.id}}
+{{credential.domain}}/api/v3/deal/{{data.id}}/applyTransition"
+Megaplan,Get a deal by ID,{{credential.domain}}/api/v3/deal/{{data.id}}
+Megaplan,Search for a deal,"{{credential.domain}}/api/v3/deal/search?{""q"":""{{data.q}}""}"
+Megaplan,Search for a duplicate client (company) by ID,{{credential.domain}}/api/v3/contractorCompany/{{data.id}}/possibleDuplicates
+Megaplan,Search for a duplicate client (person) by ID,{{credential.domain}}/api/v3/contractorHuman/{{data.id}}/possibleDuplicates
+Megaplan,Create Todo,{{credential.domain}}/api/v3/todo
+Megaplan,Send a message,{{credential.domain}}/api/v3/message/send
+1234,test,test
+1234,test,test
+Vivantio,Create Ticket,{{credential.url}}/api/Ticket/Insert
+Vivantio,Adds a Note to a Ticket,{{credential.url}}/api/Ticket/AddNote
+Vivantio,Update Ticket,{{credential.url}}/api/Ticket/Update
+Vivantio,Accepts the specified Ticket,{{credential.url}}/api/Ticket/Accept
+Vivantio,Change Ticket Owner,{{credential.url}}/api/Ticket/ChangeOwner
+Vivantio,Change Ticket Priority,{{credential.url}}/api/Ticket/ChangePriority
+Vivantio,Change Ticket Status,{{credential.url}}/api/Ticket/ChangeStatus
+Vivantio,Change Ticket Category,{{credential.url}}/api/Ticket/ReCategorize
+Vivantio,Find Ticket by ID,{{credential.url}}/api/Ticket/SelectById/{{data.Id}}
+Vivantio,Search Ticket,{{credential.url}}/api/Ticket/Select
+Vivantio,Close Ticket,{{credential.url}}/api/Ticket/Close
+Vivantio,Create Article,{{credential.url}}/api/Article/Insert
+Vivantio,Update Article,{{credential.url}}/api/Article/Update
+Vivantio,Create or Update Asset,{{credential.url}}/api/Asset/InsertUpdate
+Vivantio,Search Asset,{{credential.url}}/api/Asset/Select
+Vivantio,Delete Asset,{{credential.url}}/api/Asset/Delete
+Vivantio,Create Client,{{credential.url}}/api/Client/Insert
+Vivantio,Update Client,{{credential.url}}/api/Client/Update
+Vivantio,Create or Update Client,{{credential.url}}/api/Client/InsertUpdate
+Vivantio,Search Client,{{credential.url}}/api/Client/Select
+Vivantio,Create Caller,{{credential.url}}/api/Caller/Insert
+Vivantio,Update Caller,{{credential.url}}/api/Caller/Update
+Vivantio,Create or Update Caller,{{credential.url}}/api/Caller/InsertUpdate
+Vivantio,Search Caller,{{credential.url}}/api/Caller/Select
+Vivantio,Delete Caller ,{{credential.url}}/api/Caller/Delete
+Vivantio,Create or Update Location,{{credential.url}}/api/Location/InsertUpdate
+Vivantio,Search Location,{{credential.url}}/api/Location/Select
+test5137,action,
+3test5137en,act-en,
+ClickUp,Create a task,https://api.clickup.com/api/v2/list/{{credentialWizard.wizardList}}/task
+ClickUp,Create a subtask,https://api.clickup.com/api/v2/list/{{credentialWizard.wizardList}}/task
+ClickUp,Search for a task by ID,https://api.clickup.com/api/v2/task/{{data.id}}
+ClickUp,Get Task Comments,https://api.clickup.com/api/v2/task/{{data.taskId}}/comment
+ClickUp,Create folder,https://api.clickup.com/api/v2/space/{{credentialWizard.space}}/folder
+ClickUp,Create list,https://api.clickup.com/api/v2/folder/{{credentialWizard.folder}}/list
+ClickUp,Create checklist,https://api.clickup.com/api/v2/task/{{data.task_id}}/checklist?custom_task_ids={{data.custom_task_ids}}&team_id={{data.team_id}}
+ClickUp,Create task comment,https://api.clickup.com/api/v2/task/{{data.task_id}}/comment
+ClickUp,Add time tracking to a task,https://api.clickup.com/api/v2/task/{{data.task_id}}/time
+Test new deploy partners!,test,https://webhook.site/7c8f5f42-cc57-42f5-82db-94ae3f455915
+Test new deploy partners!,NEW ACTION,url.com
+Test new deploy partners!,NEW ACTION2,url.com
+share plus deploy,test,url.com
+share plus deploy,new,url.com
+test1,action3,
+test1,action2,
+test1,action1,https://webhook.site/df286e01-8933-4c89-8e69-040f7d440d4b
+Kanban Zone,Create Card,https://integrations.kanbanzone.io/v1/card
+Kanban Zone,Update Card,https://integrations.kanbanzone.io/v1/card/{{data.number}}
+Kanban Zone,Move Card,https://integrations.kanbanzone.io/v1/card/{{data.number}}/move
+Kanban Zone,Search Column by Title,https://integrations.kanbanzone.io/v1/board/{{data.board}}/columns
+test0001,триггер3,
+test0001,триггер2,
+test0001,экшен1,
+test0001,экшен2,
+test0001,экшен3,
+Knack,Get Records (Data Migration),
+Knack,Create Record,{{credential.domain}}/objects/{{credentialWizard.object}}/records
+Knack,Update Record,{{credential.domain}}/objects/{{credentialWizard.object}}/records/{{data.id}}
+Knack,Delete Record,{{credential.domain}}/objects/{{credentialWizard.object}}/records/{{data.id}}
+Knack,Search for Record IDs,{{credential.domain}}/objects/{{credentialWizard.object}}/records
+Knack,Search for a single record,{{credential.domain}}/objects/{{credentialWizard.object}}/records
+Knack,Search for multiple records,{{credential.domain}}/objects/{{credentialWizard.object}}/records
+Knack,Upload File,{{credential.domain}}/applications/{{auth.id}}/assets/file/upload
+test_service,test,https://api.randomdatatools.ru/
+сервис 21,триггер2,https://new-test.albato.ru/builder/constructor/11062/1316/triggers/10024103/requests
+сервис 21,действие1,https://new-test.albato.ru/builder/constructor/11062/1316/actions/10026412/requests
+new1,действие,https://api.albato.com/user/auth
+UniSender,Download contact list,"https://api.unisender.com/ru/api/async/exportContacts?platform=albato
+https://api.unisender.com/ru/api/async/getTaskResult?platform=albato
+{{data.file}}?platform=albato"
+UniSender,Add a new contact,https://api.unisender.com/ru/api/subscribe?platform=albato
+UniSender,Sending a single email (transactional),https://api.unisender.com/ru/api/sendEmail
+UniSender,Sending a single SMS (transactional),https://api.unisender.com/ru/api/sendSms
+UniSender,Create an Email newsletter,https://api.unisender.com/ru/api/createEmailMessage?platform=albato
+UniSender,Send a previously created Email newsletter,https://api.unisender.com/ru/api/createCampaign?platform=albato
+UniSender,Create an SMS newsletter,https://api.unisender.com/ru/api/createSmsMessage
+UniSender,Send a previously created SMS newsletter,https://api.unisender.com/ru/api/createCampaign?platform=albato
+UniSender,Exclude a contact from one or more lists,https://api.unisender.com/ru/api/exclude?platform=albato
+UniSender,Unsubscribe the recipient from the mailing list,https://api.unisender.com/ru/api/unsubscribe?platform=albato
+UniSender,Get contact information by Email,https://api.unisender.com/en/api/getContact?platform=albato
+UniSender,Create a new contact list,https://api.unisender.com/ru/api/createList?platform=albato
+UniSender,Change list properties,https://api.unisender.com/ru/api/updateList
+UniSender,Delete Contact List,https://api.unisender.com/ru/api/deleteList
+UniSender,Get email status,https://api.unisender.com/ru/api/checkEmail
+Selzy ,Download contact list,"https://api.selzy.com/en/api/async/exportContacts?platform=albato
+https://api.selzy.com/en/api/async/getTaskResult?platform=albato
+{{data.file}}?platform=albato"
+Selzy ,Add a new contact,https://api.selzy.com/en/api/subscribe?platform=albato
+Selzy ,Sending a single email (transactional),https://api.selzy.com/en/api/sendEmail
+Selzy ,Sending a single SMS (transactional),https://api.selzy.com/en/api/sendSms
+Selzy ,Create an Email newsletter,https://api.selzy.com/en/api/createEmailMessage?platform=albato
+Selzy ,Send a previously created Email newsletter,https://api.selzy.com/en/api/createCampaign?platform=albato
+Selzy ,Create an SMS newsletter,https://api.selzy.com/en/api/createSmsMessage
+Selzy ,Send a previously created SMS newsletter,https://api.selzy.com/en/api/createCampaign?platform=albato
+Selzy ,Exclude a contact from one or more lists,https://api.selzy.com/en/api/exclude?platform=albato
+Selzy ,Unsubscribe the recipient from the mailing list,https://api.selzy.com/en/api/unsubscribe?platform=albato
+Selzy ,Get contact information by Email,https://api.selzy.com/en/api/getContact?platform=albato
+Selzy ,Create a new contact list,https://api.selzy.com/en/api/createList?platform=albato
+Selzy ,Change list properties,https://api.selzy.com/en/api/updateList
+Selzy ,Delete Contact List,https://api.selzy.com/en/api/deleteList
+Selzy ,Get email status,https://api.selzy.com/en/api/checkEmail
+test_category,test,http://test.test
+categorytest123,categorytest,http://categorytest.categorytest
+редактируем асинк запрос,async,"url1
+url2"
+MailChimp,New subscriber in the list,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members
+MailChimp,New Campaign,{{auth.domain}}/3.0/campaigns
+MailChimp,New List/Audience,{{auth.domain}}/3.0/lists
+MailChimp,Add subscriber to the list,{{auth.domain}}/3.0/lists/{{credentialWizard.listId}}/members/
+MailChimp,Add a tag to a subscriber,{{auth.domain}}/3.0/lists/{{credentialWizard.listIdWizWthCustom}}/members/
+MailChimp,Remove tag from subscriber,{{auth.domain}}/3.0/lists/{{credentialWizard.listIdWizWthCustom}}/members/
+MailChimp,Create campaign,{{auth.domain}}/3.0/campaigns
+MailChimp,Add Note to Subscriber,{{auth.domain}}/3.0/lists/{{data.list_id}}/members/
+MailChimp,Send Campaign,{{auth.damain}}/3.0/campaigns/{{data.id}}/actions/send
+MailChimp,Archive Subscriber,{{auth.damain}}/3.0/lists/{{data.list_id}}/members/{{data.email}}
+MailChimp,Add an event for a list member.,{{auth.domain}}/3.0/lists/{{data.list_id}}/members/{{data.email}}/events
+Sendspark,Create dynamic video,"{{credential.Domen}}/v1/workspaces/{{credential.WorkspaceID}}/dynamics/{{data.dynamicId}}/prospect
+{{credential.Domen}}/v1/workspaces/{{credential.WorkspaceID}}/dynamics/{{data.dynamicId}}/prospects/{{data.contactEmail}}?include=fields,creator,emailEmbedHTML,thumbnailUrl,workspace,dynamic"
+ChatGPT (OpenAI),Create chat completion,https://api.openai.com/v1/chat/completions
+ChatGPT (OpenAI),Image Generation,https://api.openai.com/v1/images/generations
+ChatGPT (OpenAI),Create embeddings,https://api.openai.com/v1/embeddings
+ChatGPT (OpenAI),Message to assistant,"https://api.openai.com/v1/threads/runs
+https://api.openai.com/v1/threads/{{data.threadId}}/messages
+https://api.openai.com/v1/threads/{{data.threadId}}/runs
+https://api.openai.com/v1/threads/{{data.threadId}}/runs/{{data.runId}}
+https://api.openai.com/v1/threads/{{data.threadId}}/runs/{{data.runId}}/steps
+https://api.openai.com/v1/threads/{{data.threadId}}/messages/{{data.responseMessageId}}"
+ChatGPT (OpenAI),Check Moderation,https://api.openai.com/v1/moderations
+ChatGPT (OpenAI),Create image edit,https://api.openai.com/v1/images/edits
+ChatGPT (OpenAI),Convert Speech to Text,https://api.openai.com/v1/audio/transcriptions
+ChatGPT (OpenAI),Text to speech,https://api.openai.com/v1/audio/speech
+AlbatoAI,Create chat completion,https://api.openai.com/v1/chat/completions
+1test6363,api,https://new-test.albato.ru/
+1test6363,ac,https://new-test.albato.ru/

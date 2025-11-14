@@ -1,0 +1,112 @@
+[
+  {
+    "name": "U-ON",
+    "method": "New lead",
+    "method_link": "https://api.u-on.ru/lead/create.json",
+    "openapi_link": "",
+    "postman_link": "",
+    "search_method_name": "https://api.u-on.ru/doc",
+    "search_method_link": "https://api.u-on.ru/doc",
+    "ai_method_name": "https://api.u-on.ru/doc#:~:text=API%20documentation,%D0%9D%D0%B5%D1%82",
+    "ai_method_link": "https://api.u-on.ru/doc#:~:text=API%20documentation,%D0%9D%D0%B5%D1%82"
+  },
+  {
+    "name": "HubSpot",
+    "method": "Create new contact",
+    "method_link": "https://api.hubapi.com/crm/v3/objects/contacts",
+    "openapi_link": "",
+    "postman_link": "",
+    "search_method_name": "https://community.hubspot.com/t5/APIs-Integrations/Update-or-create-contacts-v3/m-p/470867",
+    "search_method_link": "https://developers.hubspot.com/docs/api-reference/crm-contacts-v3/guide",
+    "ai_method_name": "https://developers.hubspot.com/docs/api-reference/crm-contacts-v3/guide#:~:text=To%20create%20one%20contact%2C%20make,e.g.%2C%20meetings%2C%20notes).",
+    "ai_method_link": "https://developers.hubspot.com/docs/api-reference/crm-contacts-v3/guide#:~:text=To%20create%20one%20contact%2C%20make,e.g.%2C%20meetings%2C%20notes)."
+  },
+  {
+    "name": "Slack",
+    "method": "Send a message to a public channel",
+    "method_link": "https://slack.com/api/chat.postMessage",
+    "openapi_link": "",
+    "postman_link": "",
+    "search_method_name": "https://api.slack.com/reference/functions/send_message",
+    "search_method_link": "https://api.slack.com/methods/chat.postMessage?ref=thewriting.dev",
+    "ai_method_name": "https://docs.slack.dev/reference/methods/chat.postMessage/#:~:text=Pass%20the%20channel%20name%20or,person%20direct%20message%20channel%E2%80%8B",
+    "ai_method_link": "https://docs.slack.dev/reference/methods/chat.postMessage/#:~:text=For%20best%20results%2C%20limit%20the,to%20a%20private%20channel%E2%80%8B"
+  },
+  {
+    "name": "Bitly",
+    "method": "Shorten a Link",
+    "method_link": "https://api-ssl.bitly.com/v4/shorten",
+    "openapi_link": "",
+    "postman_link": "",
+    "search_method_name": "https://bitly.com/pages/products/url-shortener",
+    "search_method_link": "https://dev.bitly.com/api-reference",
+    "ai_method_name": "https://dev.bitly.com/#:~:text=Shorten%20your%20first%20link!,to%20view%20all%20available%20endpoints.",
+    "ai_method_link": "https://dev.bitly.com/#:~:text=Shorten%20your%20first%20link!,to%20view%20all%20available%20endpoints."
+  },
+  {
+    "name": "Twilio",
+    "method": "Send SMS",
+    "method_link": "https://api.twilio.com/2010-04-01/Accounts/Messages.json",
+    "openapi_link": "",
+    "postman_link": "",
+    "search_method_name": "https://www.twilio.com/docs/messaging/tutorials/how-to-send-sms-messages",
+    "search_method_link": "https://www.twilio.com/docs/iam/api/account",
+    "ai_method_name": "https://www.twilio.com/docs/messaging/tutorials/how-to-send-sms-messages#:~:text=the%20United%20Kingdom%20.-,Send%20an%20SMS%20message,Improve%20security%20with%20API%20keys",
+    "ai_method_link": "https://www.twilio.com/docs/iam/api#:~:text=send%20text%20messages.-,Base%20URL,Console%20or%20using%20the%20API."
+  },
+  {
+    "name": "Zoom",
+    "method": "Create meeting",
+    "method_link": "https://api.zoom.us/v2/users/me/meetings",
+    "openapi_link": "",
+    "postman_link": "",
+    "search_method_name": "https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/",
+    "search_method_link": "https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/",
+    "ai_method_name": "error",
+    "ai_method_link": "https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#:~:text=Zoom%20Meeting%20API,meetingId%7D/recordings/%7BrecordingId%7D"
+  },
+  {
+    "name": "MailChimp",
+    "method": "Add subscriber to the list",
+    "method_link": "https://api.mailchimp.com/3.0/lists/members/",
+    "openapi_link": "",
+    "postman_link": "",
+    "search_method_name": "https://mailchimp.com/developer/marketing/api/list-members/add-member-to-list/",
+    "search_method_link": "https://mailchimp.com/developer/marketing/docs/methods-parameters/",
+    "ai_method_name": "https://mailchimp.com/developer/marketing/docs/fundamentals/#:~:text=tested%20or%20maintained.-,API%20structure,data%20center%20subdomain%20is%20us6%20.",
+    "ai_method_link": "https://mailchimp.com/developer/marketing/api/list-members/#:~:text=Facebook%20Ads,/account%2Dexports/%7Bexport_id%7D"
+  },
+  {
+    "name": "Microsoft Office 365",
+    "method": "Send email",
+    "method_link": "https://graph.microsoft.com/v1.0/me/messages/send",
+    "openapi_link": "",
+    "postman_link": "",
+    "search_method_name": "https://learn.microsoft.com/en-us/graph/api/user-sendmail?view=graph-rest-1.0",
+    "search_method_link": "https://learn.microsoft.com/en-us/graph/api/message-send?view=graph-rest-1.0",
+    "ai_method_name": "https://learn.microsoft.com/en-sg/answers/questions/2004425/sending-e-mails-using-microsoft-365-via-smtp#:~:text=2.,Send%20to%20allow%20sending%20emails.",
+    "ai_method_link": "https://learn.microsoft.com/en-us/answers/questions/780653/sendmail(message)-request()-postasync()-method-doe#:~:text=Im%20using%20MS%20Graph%20API%20to%20send,Microsoft%20for%20the%20same%20operation%20https://learn.microsoft.com/en%2Dus/graph/api/user%2Dsendmail?view=graph%2Drest%2D1.0&tabs=csharp%20Im%E2%80%A6"
+  },
+  {
+    "name": "Bizon 365",
+    "method": "Add subscriber",
+    "method_link": "https://online.bizon365.ru/api/v1/webinars/subpages/addSubscriber",
+    "openapi_link": "https://online.bizon365.ru/api-docs",
+    "postman_link": "",
+    "search_method_name": "",
+    "search_method_link": "",
+    "ai_method_name": "",
+    "ai_method_link": ""
+  },
+  {
+    "name": "ForClasses",
+    "method": "New student",
+    "method_link": "https://api.moyklass.com/v1/company/users",
+    "openapi_link": "https://api.moyklass.com/openapi.json",
+    "postman_link": "",
+    "search_method_name": "",
+    "search_method_link": "",
+    "ai_method_name": "",
+    "ai_method_link": ""
+  }
+]

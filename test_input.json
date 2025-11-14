@@ -1,0 +1,52 @@
+[
+  {
+    "name": "U-ON",
+    "method": "New lead",
+    "method_link": "https://api.u-on.ru/lead/create.json"
+  },
+  {
+    "name": "HubSpot",
+    "method": "Create new contact",
+    "method_link": "https://api.hubapi.com/crm/v3/objects/contacts"
+  },
+  {
+    "name": "Slack",
+    "method": "Send a message to a public channel",
+    "method_link": "https://slack.com/api/chat.postMessage"
+  },
+  {
+    "name": "Bitly",
+    "method": "Shorten a Link",
+    "method_link": "https://api-ssl.bitly.com/v4/shorten"
+  },
+  {
+    "name": "Twilio",
+    "method": "Send SMS",
+    "method_link": "https://api.twilio.com/2010-04-01/Accounts/Messages.json"
+  },
+  {
+    "name": "Zoom",
+    "method": "Create meeting",
+    "method_link": "https://api.zoom.us/v2/users/me/meetings"
+  },
+  {
+    "name": "MailChimp",
+    "method": "Add subscriber to the list",
+    "method_link": "https://api.mailchimp.com/3.0/lists/members/"
+  },
+  {
+    "name": "Microsoft Office 365",
+    "method": "Send email",
+    "method_link": "https://graph.microsoft.com/v1.0/me/messages/send"
+  },
+  {
+    "name": "Bizon 365",
+    "method": "Add subscriber",
+    "method_link": "https://online.bizon365.ru/api/v1/webinars/subpages/addSubscriber"
+  },
+  {
+    "name": "ForClasses",
+    "method": "New student",
+    "method_link": "https://api.moyklass.com/v1/company/users"
+  }
+]

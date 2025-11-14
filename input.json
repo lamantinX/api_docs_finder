@@ -1,0 +1,102 @@
+[
+  {
+    "name": "U-ON",
+    "method": "New lead",
+    "method_link": "https://api.u-on.ru/lead/create.json"
+  },
+  {
+    "name": "U-ON",
+    "method": "New request",
+    "method_link": "https://api.u-on.ru/request/create.json"
+  },
+  {
+    "name": "TargetSMS",
+    "method": "Send SMS",
+    "method_link": "https://sms.targetsms.ru/sendsmsjson.php"
+  },
+  {
+    "name": "Bizon 365",
+    "method": "Add subscriber",
+    "method_link": "https://online.bizon365.ru/api/v1/webinars/subpages/addSubscriber"
+  },
+  {
+    "name": "ForClasses",
+    "method": "Student Search",
+    "method_link": "https://api.moyklass.com/v1/company/users"
+  },
+  {
+    "name": "ForClasses",
+    "method": "New student",
+    "method_link": "https://api.moyklass.com/v1/company/users"
+  },
+  {
+    "name": "HubSpot",
+    "method": "Create new contact",
+    "method_link": "https://api.hubapi.com/crm/v3/objects/contacts"
+  },
+  {
+    "name": "HubSpot",
+    "method": "Find contact",
+    "method_link": "https://api.hubapi.com/crm/v3/objects/contacts/search"
+  },
+  {
+    "name": "Bitly",
+    "method": "Shorten a Link",
+    "method_link": "https://api-ssl.bitly.com/v4/shorten"
+  },
+  {
+    "name": "Slack",
+    "method": "Send a message to a public channel",
+    "method_link": "https://slack.com/api/chat.postMessage"
+  },
+  {
+    "name": "Slack",
+    "method": "Find a user by Email",
+    "method_link": "https://slack.com/api/users.lookupByEmail"
+  },
+  {
+    "name": "Zoom",
+    "method": "Create meeting",
+    "method_link": "https://api.zoom.us/v2/users/me/meetings"
+  },
+  {
+    "name": "Zoom",
+    "method": "Create webinar",
+    "method_link": "https://api.zoom.us/v2/users/me/webinars"
+  },
+  {
+    "name": "Twilio",
+    "method": "Send SMS",
+    "method_link": "https://api.twilio.com/2010-04-01/Accounts/Messages.json"
+  },
+  {
+    "name": "MailChimp",
+    "method": "Add subscriber to the list",
+    "method_link": "https://api.mailchimp.com/3.0/lists/members/"
+  },
+  {
+    "name": "Activecampaign",
+    "method": "Create contact",
+    "method_link": "https://api-us1.com/api/3/contacts"
+  },
+  {
+    "name": "Microsoft Office 365",
+    "method": "Create new contact",
+    "method_link": "https://graph.microsoft.com/v1.0/me/contacts"
+  },
+  {
+    "name": "Microsoft Office 365",
+    "method": "Send email",
+    "method_link": "https://graph.microsoft.com/v1.0/me/messages/send"
+  },
+  {
+    "name": "ClickUp",
+    "method": "Create task",
+    "method_link": "https://api.clickup.com/api/v2/list/task"
+  },
+  {
+    "name": "Convertkit",
+    "method": "Add Subscriber to Form",
+    "method_link": "https://api.convertkit.com/v3/forms/subscribe"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "url": "https://api.u-on.ru/doc#:~:text=API%20documentation,%D0%9D%D0%B5%D1%82",
+    "type": "html",
+    "name": "U-ON API - New lead",
+    "description": "Мониторинг документации метода New lead в U-ON"
+  },
+  {
+    "url": "https://developers.hubspot.com/docs/api-reference/crm-contacts-v3/guide#:~:text=To%20create%20one%20contact%2C%20make,e.g.%2C%20meetings%2C%20notes).",
+    "type": "html",
+    "name": "HubSpot API - Create new contact",
+    "description": "Мониторинг документации метода Create new contact в HubSpot"
+  },
+  {
+    "url": "https://docs.slack.dev/reference/methods/chat.postMessage/#:~:text=Pass%20the%20channel%20name%20or,person%20direct%20message%20channel%E2%80%8B",
+    "type": "html",
+    "name": "Slack API - Send a message to a public channel",
+    "description": "Мониторинг документации метода Send a message to a public channel в Slack"
+  },
+  {
+    "url": "https://dev.bitly.com/#:~:text=Shorten%20your%20first%20link!,to%20view%20all%20available%20endpoints.",
+    "type": "html",
+    "name": "Bitly API - Shorten a Link",
+    "description": "Мониторинг документации метода Shorten a Link в Bitly"
+  },
+  {
+    "url": "https://www.twilio.com/docs/messaging/tutorials/how-to-send-sms-messages#:~:text=the%20United%20Kingdom%20.-,Send%20an%20SMS%20message,Improve%20security%20with%20API%20keys",
+    "type": "html",
+    "name": "Twilio API - Send SMS",
+    "description": "Мониторинг документации метода Send SMS в Twilio"
+  },
+  {
+    "url": "https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#:~:text=Zoom%20Meeting%20API,meetingId%7D/recordings/%7BrecordingId%7D",
+    "type": "html",
+    "name": "Zoom API - Create meeting",
+    "description": "Мониторинг документации метода Create meeting в Zoom"
+  },
+  {
+    "url": "https://mailchimp.com/developer/marketing/api/list-members/#:~:text=Facebook%20Ads,/account%2Dexports/%7Bexport_id%7D",
+    "type": "html",
+    "name": "MailChimp API - Add subscriber to the list",
+    "description": "Мониторинг документации метода Add subscriber to the list в MailChimp"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-sg/answers/questions/2004425/sending-e-mails-using-microsoft-365-via-smtp#:~:text=2.,Send%20to%20allow%20sending%20emails.",
+    "type": "html",
+    "name": "Microsoft Office 365 API - Send email",
+    "description": "Мониторинг документации метода Send email в Microsoft Office 365"
+  },
+  {
+    "url": "https://online.bizon365.ru/api-docs",
+    "type": "html",
+    "name": "Bizon 365 API - Add subscriber",
+    "description": "Мониторинг документации метода Add subscriber в Bizon 365"
+  },
+  {
+    "url": "https://api.moyklass.com/openapi.json",
+    "type": "openapi",
+    "name": "ForClasses API - New student",
+    "description": "Мониторинг документации метода New student в ForClasses",
+    "method_filter": "/v1/company/users"
+  }
+]
