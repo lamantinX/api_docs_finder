@@ -4,11 +4,26 @@
 
 ## Установка
 
+1. Установите зависимости:
 ```bash
 pip install -r requirements.txt
 ```
 
-Требования: Python 3.7+, зависимости: `aiohttp>=3.9.0`, `tqdm>=4.66.0`
+Требования: Python 3.7+, зависимости: `aiohttp>=3.9.0`, `tqdm>=4.66.0`, `python-dotenv>=1.0.0`
+
+2. Настройте переменные окружения:
+
+Создайте файл `.env` в корне проекта:
+```bash
+cp .env.example .env
+```
+
+Откройте `.env` и добавьте ваш SerpAPI ключ:
+```
+SERPAPI_KEY=your_actual_serpapi_key_here
+```
+
+Получить ключ можно на https://serpapi.com/
 
 ## Использование
 

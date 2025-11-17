@@ -1,12 +1,24 @@
 """Test SerpAPI connection and quota."""
 import asyncio
 import aiohttp
+import os
 from urllib.parse import urlencode
+
+# Load environment variables from .env file if python-dotenv is available
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 
 async def test_serpapi():
     """Test SerpAPI with a simple query."""
-    api_key = "dc2bf39c68168f9a35abdac1b265db678d4e97537344e7dee9848c46e7b43b72"
+    api_key = os.getenv('SERPAPI_KEY', '')
+    
+    if not api_key:
+        print("❌ Error: SERPAPI_KEY environment variable is not set")
+        return
     
     # Test query
     params = {

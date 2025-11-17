@@ -6,8 +6,16 @@ through OpenAPI direct search and SerpAPI multi-search fallback.
 """
 
 import asyncio
+import os
 import sys
 from typing import List
+
+# Load environment variables from .env file if python-dotenv is available
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 from cli import parse_arguments
 from loader import InputLoader, APIMethod

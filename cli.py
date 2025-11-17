@@ -5,11 +5,18 @@ It defines the CLIArguments dataclass and provides the parse_arguments() functio
 """
 
 import argparse
+import os
 from dataclasses import dataclass
 
+# Load environment variables from .env file if python-dotenv is available
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
-# Hardcoded SerpAPI key as per requirements
-SERPAPI_KEY = "dc2bf39c68168f9a35abdac1b265db678d4e97537344e7dee9848c46e7b43b72"
+# Load SerpAPI key from environment variable
+SERPAPI_KEY = os.getenv('SERPAPI_KEY', '')
 
 
 @dataclass
@@ -56,6 +63,10 @@ Examples:
     )
     
     args = parser.parse_args()
+    
+    # Validate SerpAPI key is set
+    if not SERPAPI_KEY:
+        parser.error("SERPAPI_KEY environment variable is not set. Please set it in .env file or environment.")
     
     return CLIArguments(
         input_file=args.input,
